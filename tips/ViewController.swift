@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         billField.placeholder = getCurrencySymbol()
         
         let refDate = NSUserDefaults.standardUserDefaults().objectForKey("defaults.billDate") as? NSDate
-        if (refDate != nil && integer_t(NSDate().timeIntervalSinceDate(refDate!)) < 120) {
+        if (refDate != nil && integer_t(NSDate().timeIntervalSinceDate(refDate!)) < 600) {
             billField.text = NSUserDefaults.standardUserDefaults().objectForKey("defaults.billValue") as? String
         }
         onEdittingChange(self)
