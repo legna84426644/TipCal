@@ -13,6 +13,8 @@
 		7A4231A21C1A4F2000B792B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A4231A11C1A4F2000B792B9 /* Images.xcassets */; };
 		7A4231A51C1A4F2000B792B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A4231A31C1A4F2000B792B9 /* LaunchScreen.xib */; };
 		7A4231B11C1A4F2000B792B9 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4231B01C1A4F2000B792B9 /* tipsTests.swift */; };
+		7AC80F651C1A7DB900B62556 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC80F641C1A7DB900B62556 /* SettingsViewController.swift */; };
+		7AF025D71C1B10EC00B51DAA /* t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AF025D61C1B10EC00B51DAA /* t.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7A4231951C1A4F2000B792B9 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4231951C1A4F2000B792B9 /* TipCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4231991C1A4F2000B792B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A42319A1C1A4F2000B792B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A42319C1C1A4F2000B792B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A42319F1C1A4F2000B792B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A4231A11C1A4F2000B792B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7A4231A41C1A4F2000B792B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		7A4231AA1C1A4F2000B792B9 /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4231AA1C1A4F2000B792B9 /* TipCal.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCal.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4231AF1C1A4F2000B792B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A4231B01C1A4F2000B792B9 /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
+		7AC80F641C1A7DB900B62556 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7AF025D61C1B10EC00B51DAA /* t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = t.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +72,8 @@
 		7A4231961C1A4F2000B792B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A4231951C1A4F2000B792B9 /* tips.app */,
-				7A4231AA1C1A4F2000B792B9 /* tipsTests.xctest */,
+				7A4231951C1A4F2000B792B9 /* TipCal.app */,
+				7A4231AA1C1A4F2000B792B9 /* TipCal.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,9 +81,11 @@
 		7A4231971C1A4F2000B792B9 /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				7AF025D61C1B10EC00B51DAA /* t.jpg */,
 				7A42319A1C1A4F2000B792B9 /* AppDelegate.swift */,
 				7A42319C1C1A4F2000B792B9 /* ViewController.swift */,
 				7A42319E1C1A4F2000B792B9 /* Main.storyboard */,
+				7AC80F641C1A7DB900B62556 /* SettingsViewController.swift */,
 				7A4231A11C1A4F2000B792B9 /* Images.xcassets */,
 				7A4231A31C1A4F2000B792B9 /* LaunchScreen.xib */,
 				7A4231981C1A4F2000B792B9 /* Supporting Files */,
@@ -115,9 +121,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7A4231941C1A4F2000B792B9 /* tips */ = {
+		7A4231941C1A4F2000B792B9 /* TipCal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A4231B41C1A4F2000B792B9 /* Build configuration list for PBXNativeTarget "tips" */;
+			buildConfigurationList = 7A4231B41C1A4F2000B792B9 /* Build configuration list for PBXNativeTarget "TipCal" */;
 			buildPhases = (
 				7A4231911C1A4F2000B792B9 /* Sources */,
 				7A4231921C1A4F2000B792B9 /* Frameworks */,
@@ -127,14 +133,14 @@
 			);
 			dependencies = (
 			);
-			name = tips;
+			name = TipCal;
 			productName = tips;
-			productReference = 7A4231951C1A4F2000B792B9 /* tips.app */;
+			productReference = 7A4231951C1A4F2000B792B9 /* TipCal.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7A4231A91C1A4F2000B792B9 /* tipsTests */ = {
+		7A4231A91C1A4F2000B792B9 /* TipCalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A4231B71C1A4F2000B792B9 /* Build configuration list for PBXNativeTarget "tipsTests" */;
+			buildConfigurationList = 7A4231B71C1A4F2000B792B9 /* Build configuration list for PBXNativeTarget "TipCalTests" */;
 			buildPhases = (
 				7A4231A61C1A4F2000B792B9 /* Sources */,
 				7A4231A71C1A4F2000B792B9 /* Frameworks */,
@@ -145,9 +151,9 @@
 			dependencies = (
 				7A4231AC1C1A4F2000B792B9 /* PBXTargetDependency */,
 			);
-			name = tipsTests;
+			name = TipCalTests;
 			productName = tipsTests;
-			productReference = 7A4231AA1C1A4F2000B792B9 /* tipsTests.xctest */;
+			productReference = 7A4231AA1C1A4F2000B792B9 /* TipCal.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -156,11 +162,13 @@
 		7A42318D1C1A4F2000B792B9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Parijat Mazumdar";
 				TargetAttributes = {
 					7A4231941C1A4F2000B792B9 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = X28Q3N5L95;
 					};
 					7A4231A91C1A4F2000B792B9 = {
 						CreatedOnToolsVersion = 6.4;
@@ -168,7 +176,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7A4231901C1A4F2000B792B9 /* Build configuration list for PBXProject "tips" */;
+			buildConfigurationList = 7A4231901C1A4F2000B792B9 /* Build configuration list for PBXProject "TipCal" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +189,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A4231941C1A4F2000B792B9 /* tips */,
-				7A4231A91C1A4F2000B792B9 /* tipsTests */,
+				7A4231941C1A4F2000B792B9 /* TipCal */,
+				7A4231A91C1A4F2000B792B9 /* TipCalTests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AF025D71C1B10EC00B51DAA /* t.jpg in Resources */,
 				7A4231A01C1A4F2000B792B9 /* Main.storyboard in Resources */,
 				7A4231A51C1A4F2000B792B9 /* LaunchScreen.xib in Resources */,
 				7A4231A21C1A4F2000B792B9 /* Images.xcassets in Resources */,
@@ -214,6 +223,7 @@
 			files = (
 				7A42319D1C1A4F2000B792B9 /* ViewController.swift in Sources */,
 				7A42319B1C1A4F2000B792B9 /* AppDelegate.swift in Sources */,
+				7AC80F651C1A7DB900B62556 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +240,7 @@
 /* Begin PBXTargetDependency section */
 		7A4231AC1C1A4F2000B792B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7A4231941C1A4F2000B792B9 /* tips */;
+			target = 7A4231941C1A4F2000B792B9 /* TipCal */;
 			targetProxy = 7A4231AB1C1A4F2000B792B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -276,6 +286,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -291,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -329,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -340,9 +351,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TipCal;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -350,9 +366,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TipCal;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -370,8 +391,9 @@
 				);
 				INFOPLIST_FILE = tipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tips.app/tips";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TipCal;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCal.app/TipCal";
 			};
 			name = Debug;
 		};
@@ -385,15 +407,16 @@
 				);
 				INFOPLIST_FILE = tipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tips.app/tips";
+				PRODUCT_BUNDLE_IDENTIFIER = "self.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TipCal;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCal.app/TipCal";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7A4231901C1A4F2000B792B9 /* Build configuration list for PBXProject "tips" */ = {
+		7A4231901C1A4F2000B792B9 /* Build configuration list for PBXProject "TipCal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A4231B21C1A4F2000B792B9 /* Debug */,
@@ -402,21 +425,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A4231B41C1A4F2000B792B9 /* Build configuration list for PBXNativeTarget "tips" */ = {
+		7A4231B41C1A4F2000B792B9 /* Build configuration list for PBXNativeTarget "TipCal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A4231B51C1A4F2000B792B9 /* Debug */,
 				7A4231B61C1A4F2000B792B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		7A4231B71C1A4F2000B792B9 /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
+		7A4231B71C1A4F2000B792B9 /* Build configuration list for PBXNativeTarget "TipCalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A4231B81C1A4F2000B792B9 /* Debug */,
 				7A4231B91C1A4F2000B792B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
