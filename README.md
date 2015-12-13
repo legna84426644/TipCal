@@ -22,9 +22,12 @@ The following **optional** features are implemented:
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
+[Imgur](http://i.imgur.com/FWF3Oi9.gifv)
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="ucAFS3W"><a href="//imgur.com/ucAFS3W">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-<img src='http://i.imgur.com/ucAFS3W.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[img]http://i.imgur.com/FWF3Oi9.gif[/img]
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="FWF3Oi9"><a href="//imgur.com/FWF3Oi9">View post on imgur.com</a></blockquote>
+<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
